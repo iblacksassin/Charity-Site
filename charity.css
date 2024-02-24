@@ -1,0 +1,347 @@
+:root{
+    --white:#fff;
+    --black:#171717
+    --bg-color:#1c1c1e;
+    --light-white:#999;
+    --box-shadow:0 .5rem 1rem #000;
+    --border:.1rem solid rgba(255,255,255,.1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*::selection{
+    background: var(--white);
+    color: var(--black);
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: .5rem;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--white);
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+body{
+    background: rgba(0, 123, 25, 0.954);
+    color: black;
+}
+header{
+    background: rgba(105, 229, 132, 0.585);
+    box-shadow: var(--box-shadow);  
+    padding: 2.5rem;
+    width: 115rem;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 15px;
+}
+header #header{
+    float: left;
+}
+header #header h1{
+    margin: 0;
+}
+.navbar{
+    position: fixed;
+    top: 10.5rem; left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+.navbar .nav{
+    background-color: rgba(105, 229, 132, 0.585);
+    padding: 1rem;
+    width: 105rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;  
+    border-radius: .5rem;
+}
+.navbar .nav a{
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    transition: .2s linear;
+    color: whitesmoke;
+}
+.navbar .nav a:hover{
+    background: rgba(3, 164, 3, 0.477);
+}
+.navbar .nav a i{
+    display: none;
+}
+.highlight{
+    color: rgba(245, 245, 245, 0.724);
+    margin-left: 10px;
+    font-size: 3rem;
+}
+.h1{
+    color: rgb(55, 119, 15);
+    margin-left: 30px;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.container{
+    width: 70%;
+    overflow: hidden;
+}
+.body{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.h{
+    color: rgb(55, 119, 15);
+    font-size: 4.5rem;
+    font-weight: 700;  
+}
+.home{
+    margin-top: 17rem;
+    background: url(orphan-1139038_1920.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.layout{
+    padding: 70px;
+}
+.span{
+    color: rgb(55, 119, 15);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.cause{
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.donate{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 40rem);
+    align-items: flex-end;
+    justify-content: center;
+    gap: 9rem;
+    list-style: none;
+}
+.donations{
+    margin: auto;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    width: 35rem;
+    font-size: 1.3rem;
+    background: rgba(0, 123, 25, 0.954);
+}
+input{
+    width: 15rem;
+    padding: 10px;
+    margin-left: 5px;
+}
+img{
+    width: 30rem;
+}
+.analysis{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.li{
+    background: rgb(2, 151, 2);
+    padding: 20px;
+}
+.btn{
+    text-align: center;
+    margin-bottom: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+.p{
+    color: rgba(245, 245, 245, 0.723);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.h2{
+    color: var(--light-white);
+}
+.cause{
+    background: var(--white);
+    margin: auto;
+    margin-bottom: 30px;
+}
+button{
+    background: rgb(1, 185, 38) ;
+    color: rgb(179, 177, 177);
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+button:hover{
+    background: rgba(3, 216, 3, 0.929);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hold{
+    background: black;
+    width: 100px;
+}
+.volunteer{
+    text-align: center;
+    padding: 50px;
+    background: rgba(17, 182, 17, 0.339);
+    width: 25rem;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about{
+    background: rgba(17, 182, 17, 0.339);
+    width: 30rem;
+    height: 20rem;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+.contactus{
+    text-align: center;
+    padding: 50px;
+    background: rgba(17, 182, 17, 0.339);
+    width: 20rem;
+    margin: auto;
+}
+.duty{
+    background: whitesmoke ;
+    padding: 30px;
+}
+.duties{
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.sections{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 40rem);
+    align-items: flex-end;
+    justify-content: center;
+    gap: 9rem;
+    list-style: none;
+}
+.section{
+    margin: auto;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    width: 35rem;
+    font-size: 1.3rem;
+    background: rgba(0, 123, 25, 0.954);
+}
+.p2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.footer{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    background: rgba(33, 135, 33, 0.841);
+    color: rgba(245, 245, 245, 0.649);
+    font-size: 2rem;
+    padding: 45px;
+}
+.footer li{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding:20px;
+    margin-left: 30px;
+}
+.header li{
+    list-style: none;
+    float: right;
+}
+li{
+    display: flex;
+    padding: 10px;
+    font-size: 2rem;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 27rem);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+}
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 1rem ;
+}
+.footer .box-container .box a{
+    font-size: 1.6rem;
+    color: var(--light-white);
+    display: block;
+    padding: 1rem ;
+}
+.footer .box-container .box a i{
+    color: coral;
+    margin-top: .5rem;
+}
+.footer .box-container .box a:hover{
+    color: var(--white);
+}
+.footer .credit{
+    padding: 3rem 2rem;
+    border-top: var(--border);
+    text-align: center;
+    font-size: 2rem;
+    color: var(--light-white);
+}
+.footer .credit span{
+    color: transparent;
+    background: var(--gradient);
+    background-clip: text;
+}
+
+/* Media Queries*/
+
+@media (max-width:868px){
+    html{
+        -webkit-flow-into: 100%;
+    }
+}
+
+
+@media (max-width:500px){
+    html{
+        -webkit-flow-into: 50%;
+    }
+}
