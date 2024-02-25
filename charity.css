@@ -118,7 +118,9 @@ header #header h1{
     margin-top: 17rem;
     background: url(orphan-1139038_1920.jpg) no-repeat;
     background-size: cover;
-    
+    height: 100vh;
+    padding: -30px;
+    background-position: 70%;
 }
 .layout{
     padding: 70px;
