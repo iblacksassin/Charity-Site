@@ -66,6 +66,7 @@ header #header h1{
     background-color: rgba(105, 229, 132, 0.585);
     padding: 1rem;
     width: 105rem;
+    height: 4rem;
     border: var(--border);
     box-shadow: var(--box-shadow);
     display: flex;
@@ -76,7 +77,7 @@ header #header h1{
 }
 .navbar .nav a{
     font-size: 1.7rem;
-    padding: 1rem 2rem;
+    padding: .5rem 1rem;
     border-radius: .5rem;
     transition: .2s linear;
     color: whitesmoke;
@@ -145,7 +146,7 @@ header #header h1{
     margin: auto;
     padding: 2rem 2.5rem;
     border-radius: 1rem;
-    width: 35rem;
+    width: 30rem;
     font-size: 1.3rem;
     background: rgba(0, 123, 25, 0.954);
 }
@@ -340,7 +341,7 @@ li{
 }
 
 
-@media (max-width:500px){
+@media (max-width:600px){
     html{
         -webkit-flow-into: 50%;
     }
