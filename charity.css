@@ -78,7 +78,6 @@ header #header h1{
 .navbar .nav a{
     font-size: 1.7rem;
     padding: .5rem 1rem;
-    border-radius: .5rem;
     transition: .2s linear;
     color: whitesmoke;
 }
@@ -96,7 +95,7 @@ header #header h1{
 .h1{
     color: rgb(55, 119, 15);
     margin-left: 30px;
-    font-size: 2.6rem;
+    font-size: 3.6rem;
     font-weight: 600;
 }
 .container{
@@ -111,45 +110,58 @@ header #header h1{
 }
 .h{
     color: rgb(55, 119, 15);
-    font-size: 4.5rem;
+    font-size: 6rem;
     font-weight: 700;  
 }
 .home{
     margin-top: 17rem;
     background: url(orphan-1139038_1920.jpg) no-repeat;
     background-size: cover;
-    height: 100vh;
-    padding: -30px;
+    height: 150vh;
+    width: 700px;
     background-position: 70%;
 }
 .layout{
     padding: 70px;
 }
+.body{
+    font-size: 2.7rem;
+}
 .span{
     color: rgb(55, 119, 15);
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 700;
 }
 .cause{
     text-align: center;
     padding: 30px;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
+    background: var(--white);
+    margin: auto;
+    margin-bottom: 30px;
+    width: 64rem;
+}
+.causes{
+    width: 60rem;
+    padding: 20px;
 }
 .donate{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 40rem);
+    grid-template-columns: repeat(auto-fit, 70rem);
     align-items: flex-end;
     justify-content: center;
-    gap: 9rem;
+    gap: 10rem;
     list-style: none;
 }
 .donations{
     margin: auto;
-    padding: 2rem 2.5rem;
-    border-radius: 1rem;
-    width: 30rem;
-    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    width: 60rem;
+    height: 73rem;
+    font-size: 2.3rem;
+    font-weight: 800;
     background: rgba(0, 123, 25, 0.954);
 }
 input{
@@ -158,26 +170,30 @@ input{
     margin-left: 5px;
 }
 img{
-    width: 30rem;
+    width: 36rem;
 }
 .analysis{
     display: grid;
     grid-template-columns: repeat(auto-fit, 25rem);
     align-items: flex-end;
     justify-content: center;
-    gap: 2rem;
+    gap: 7rem;
     list-style: none;
     margin-top: 50px;
     margin-bottom: 10px;
+    width: 65rem;
 }
 .li{
     background: rgb(2, 151, 2);
     padding: 20px;
+    width: 25rem;
 }
 .btn{
     text-align: center;
     margin-bottom: 30px;
     margin: auto;
+    width: 70rem;
+    font-size: 2rem;
     margin-top: 30px;
 }
 .p{
@@ -188,18 +204,14 @@ img{
 .h2{
     color: var(--light-white);
 }
-.cause{
-    background: var(--white);
-    margin: auto;
-    margin-bottom: 30px;
-}
 button{
     background: rgb(1, 185, 38) ;
     color: rgb(179, 177, 177);
     border-style: none;
     border-radius: 30px;
-    height: 30px;
-    width: 80px;
+    height: 60px;
+    width: 150px;
+    font-size: 2rem;
     cursor: pointer;
     transition: .2s linear;
 }
@@ -214,31 +226,44 @@ a{
     background: black;
     width: 100px;
 }
+#volunteer{
+    padding: 30px;
+}
 .volunteer{
     text-align: center;
     padding: 50px;
     background: rgba(17, 182, 17, 0.339);
-    width: 25rem;
+    width: 53rem;
+    font-size: 3rem;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+#about{
+    padding: 30px;
+}
 .about{
     background: rgba(17, 182, 17, 0.339);
-    width: 30rem;
-    height: 20rem;
+    width: 57rem;
+    height: 30rem;
     padding: 20px;
     margin: auto;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+#contact{
+    padding: 30px;
 }
 .contactus{
     text-align: center;
     padding: 50px;
     background: rgba(17, 182, 17, 0.339);
-    width: 20rem;
+    width: 57rem;
     margin: auto;
+    font-size: 2.3rem;
+    font-weight: 900;
 }
 .duty{
     background: whitesmoke ;
@@ -274,9 +299,9 @@ a{
     margin: auto;
     margin-top: 30px;
     text-align: center;
+    width: 61rem;
     background: rgba(33, 135, 33, 0.841);
     color: rgba(245, 245, 245, 0.649);
-    font-size: 2rem;
     padding: 45px;
 }
 .footer li{
@@ -309,7 +334,7 @@ li{
     margin-bottom: 1rem ;
 }
 .footer .box-container .box a{
-    font-size: 1.6rem;
+    font-size: 2.7rem;
     color: var(--light-white);
     display: block;
     padding: 1rem ;
