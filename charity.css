@@ -206,6 +206,7 @@ img{
 }
 .h2{
     color: var(--light-white);
+    font-size: 3rem;
 }
 button{
     background: rgb(1, 185, 38) ;
@@ -270,27 +271,30 @@ a{
 }
 .duty{
     background: whitesmoke ;
-    padding: 30px;
+    padding: 50px;
+    width: 101rem;
 }
 .duties{
     text-align: center;
     color: black;
     font-size: 3rem;
     font-weight: 500;
+    padding: 20px;
 }
 .sections{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 40rem);
+    grid-template-columns: repeat(auto-fit, 45rem);
     align-items: flex-end;
     justify-content: center;
-    gap: 9rem;
+    gap: 7rem;
     list-style: none;
 }
 .section{
     margin: auto;
-    padding: 2rem 2.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 1rem;
-    width: 35rem;
+    width: 42rem;
+    height: 23rem;
     font-size: 1.3rem;
     background: rgba(0, 123, 25, 0.954);
 }
